@@ -59,8 +59,13 @@ Para executar o pipeline corretamente, coloque o arquivo de ortomosaico (ex.: `o
 ### Criar ambiente virtual
 
 ```bash
+# macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
+
+# Windows (PowerShell)
+py -m venv .venv
+.\.venv\Scripts\Activate.ps1
 ```
 
 ### Instalar dependências
